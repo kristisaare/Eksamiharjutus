@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 /**
  * Siin failis kasutatakse objekti Seljakott, aga Seljakott klassi ei eksisteeri. Sinu ülesanne
  * on see luua. Pane tähele, et mitte ükski objekti muutuja ei tohi olla
@@ -30,3 +31,5 @@ public class Objektorienteeritus {
         System.out.println("Asju on kotis nii mitu: " + kott.mituAsjaOnKotis());
     }
 }
+
+

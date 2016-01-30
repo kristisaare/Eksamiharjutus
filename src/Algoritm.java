@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -19,6 +20,23 @@ public class Algoritm {
 
     // Siia meetodi sisse kirjuta lahendus.
     private static int yleMediaani(int[] ints) {
+       Arrays.sort(ints);
+        System.out.println(Arrays.toString(ints));
+
+        int index = 0;
+
+        while (index<ints.length) {
+            if (ints[index]>60){
+                ints[index]=60;
+            }
+            index++;
+        }
+
+        System.out.println(Arrays.toString(ints));
+
+        int moreThanMedian = (int) Math.floor(ints.length/2);
+
+        System.out.println("More than median results total: " + moreThanMedian);
 
         return 0;
     }
